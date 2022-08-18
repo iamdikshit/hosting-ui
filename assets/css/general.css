@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* General Reusable Components */
@@ -132,6 +134,14 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-cols--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-cols--2testimonial {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .align-c {
   align-items: center;
 }
@@ -141,7 +151,8 @@ body {
 .services-header-description,
 .card-description,
 .testimonial-description,
-.testimonial-head-description {
+.testimonial-head-description,
+.cta-desription {
   font-size: 1.4rem;
   line-height: 1.5;
   margin-bottom: 5rem;

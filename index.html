@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- Header section -->
-    <header class="header-section">
+    <header class="header-section" id="header">
       <a href="">
         <img class="logo" src="assets/img/Logo.png" alt=" logo" />
       </a>
@@ -54,6 +54,18 @@
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon
+          class="icon-mobile-nav"
+          id="open"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav"
+          id="close"
+          name="close-outline"
+        ></ion-icon>
+      </button>
     </header>
     <!-- Header section end -->
 
@@ -126,7 +138,7 @@
 
     <!-- services section start -->
     <section class="services-section">
-      <div class="container grid grid-cols--2 align-c">
+      <div class="container grid grid-cols--2 align-c gap2">
         <div class="services-header-title">
           <h2 class="secondary-heading">Services We Provide At ThorHosting</h2>
         </div>
@@ -359,7 +371,7 @@
             ad vero odit ex velit qua
           </p>
         </div>
-        <div class="testimonials grid grid-cols--2">
+        <div class="testimonials grid grid-cols--2testimonial">
           <div class="testimonial-card">
             <p class="testimonial-description">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -424,5 +436,97 @@
       </div>
     </section>
     <!-- Testimonials end -->
+
+    <!-- cta section start  -->
+    <section class="cta-section">
+      <div class="container cta">
+        <div class="cta-left-section">
+          <h2 class="secondary-heading cta-title">
+            Quit Worrying about Oce-Hosting services
+          </h2>
+          <p class="cta-desription">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
+            soluta quasi facere. Perferendis expedita iure qui nobis molestiae
+            deleniti! Cum blanditiis saepe reiciendis optio porro, mollitia at
+            commodi illum? Earum!
+          </p>
+        </div>
+        <div class="cta-right-section">
+          <a href="" class="main-links nav-cta cta-btn">Register Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- cta section end  -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container grid grid-cols--5 helper">
+        <div class="footer-logo">
+          <img class="logo" src="assets/img/Logo.png" alt="" />
+
+          <address class="address">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. velit officia consequat
+          </address>
+        </div>
+        <div class="footer-menu">
+          <h3 class="tertiary-heading footer-title">Menu</h3>
+          <ul class="footer-list">
+            <li class="footer-links">Home</li>
+            <li class="footer-links">Covid19</li>
+            <li class="footer-links">Covid19</li>
+            <li class="footer-links">Contact Us</li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3 class="tertiary-heading footer-title">links</h3>
+          <ul class="footer-list">
+            <li class="footer-links">Partners</li>
+            <li class="footer-links">Careers</li>
+            <li class="footer-links">Press</li>
+            <li class="footer-links">Community</li>
+          </ul>
+        </div>
+        <div class="footer-overview">
+          <h3 class="tertiary-heading footer-title">Overview</h3>
+          <ul class="footer-list">
+            <li class="footer-links">Terms & Condistions</li>
+            <li class="footer-links">Privacy Policy</li>
+            <li class="footer-links">FAQ</li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3 class="tertiary-heading footer-title">Social Media</h3>
+          <ul class="footer-list social">
+            <li class="footer-links">
+              <img src="assets/img/fb.svg" alt="" />
+            </li>
+            <li class="footer-links">
+              <img src="assets/img/ig.svg" alt="" />
+            </li>
+
+            <li class="footer-links">
+              <img src="assets/img/youtube.svg" alt="" />
+            </li>
+
+            <li class="footer-links">
+              <img src="assets/img/linked-in.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const head = document.querySelector("#header");
+      const navIconOpen = document.querySelector("#open");
+      const navIconClose = document.querySelector("#close");
+      navIconOpen.addEventListener("click", function () {
+        head.classList.add("nav-open");
+      });
+      navIconClose.addEventListener("click", function () {
+        head.classList.remove("nav-open");
+      });
+    </script>
   </body>
 </html>
