@@ -1,0 +1,152 @@
+/* color  */
+/* #339af0 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #555;
+}
+
+/* General Reusable Components */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.main-links:link,
+.main-links:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #777;
+  font-weight: 600;
+}
+
+.main-links:hover,
+.main-links:active {
+  color: #000;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.nav-cta:link,
+.nav-cta:visited {
+  color: #339af0;
+  border: 2px solid #339af0;
+  padding: 1.2rem 2.4rem;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #339af0;
+  border: 2px solid #339af0;
+  padding: 1.2rem 2.4rem;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.btn:hover,
+.btn:active {
+  background: rgb(5, 140, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(5, 140, 255, 1) 35%,
+    rgba(0, 42, 166, 1) 100%
+  );
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 50px -12px;
+}
+
+.nav-cta:hover,
+.nav-cta:active {
+  color: #1864ab;
+  border: 2px solid #1864ab;
+}
+
+.primary-heading,
+.secondary-heading,
+.tertiary-heading {
+  color: #000;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.primary-heading {
+  font-size: 5.2rem;
+  margin-bottom: 5rem;
+}
+
+.secondary-heading {
+  font-size: 4.4rem;
+  margin-bottom: 4rem;
+}
+
+.tertiary-heading {
+  font-size: 3rem;
+}
+
+.secondary-btn:link,
+.secondary-btn:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  background: rgb(5, 140, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(5, 140, 255, 1) 35%,
+    rgba(0, 42, 166, 1) 100%
+  );
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 50px -12px;
+}
+
+.grid {
+  display: grid;
+  gap: 4.8rem;
+}
+
+.grid-cols--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.align-c {
+  align-items: center;
+}
+
+.feature-content-description,
+.technical-content-description,
+.services-header-description,
+.card-description,
+.testimonial-description,
+.testimonial-head-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+}
+
+.gap {
+  gap: 2rem;
+}

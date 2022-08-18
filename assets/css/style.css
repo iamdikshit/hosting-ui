@@ -1,0 +1,210 @@
+/* Navbar section */
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4.8rem;
+  height: 9.6rem;
+}
+
+.main-list {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.main-list li {
+  list-style: none;
+}
+
+.active:link,
+.active:visited {
+  color: #000;
+}
+
+/* Hero section */
+.hero-section {
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero {
+  max-width: 130rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-content-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/*  Feature section */
+
+.feature-section {
+  padding: 4.8rem 0 9.6rem;
+}
+.feature-img {
+  width: 100%;
+}
+
+/* Technicals */
+.technical-img {
+  width: 100%;
+}
+
+/* Services */
+
+.services-section {
+  padding: 4.8rem 0 9.6rem 0;
+}
+.card {
+  padding: 2rem;
+}
+
+.card-description {
+  margin-bottom: 0;
+}
+.card-title {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.8rem;
+}
+
+/* pricing */
+.price-section {
+  background: rgb(32, 200, 254);
+  background: linear-gradient(
+    162deg,
+    rgba(32, 200, 254, 1) 21%,
+    rgba(0, 87, 166, 1) 100%
+  );
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+.price-title {
+  text-align: center;
+  color: #fff;
+}
+
+.price-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.price-card-head p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.price-card-head {
+  padding: 2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 5rem;
+}
+
+.recomended {
+  background-color: #212529;
+  color: #fff;
+}
+.recomended-title {
+  color: #fff;
+}
+
+.recomended-description {
+  color: #fff !important;
+}
+
+.price-card-title {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.icon-circle {
+  color: rgb(1, 190, 10);
+  width: 2rem;
+  height: 2rem;
+}
+.price-benifit-lists {
+  padding: 2rem;
+}
+.price-benifit-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.price-benifit-list span {
+  font-size: 1.4rem;
+}
+
+.price {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.price span {
+  color: #777;
+}
+
+.cancel {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+}
+
+.price-card-inner {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+/* testimonials */
+.testimonial-section {
+  padding: 4.8rem 0 9.6rem 0;
+}
+.testimonial-head {
+  text-align: center;
+}
+
+.testimonial-card {
+  padding: 2rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.testimonial-card:hover {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.testimonial-description {
+  margin-bottom: 2rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.author-name {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.author-company-name {
+  font-size: 1.4rem;
+}
